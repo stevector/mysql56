@@ -5,13 +5,9 @@
   "license": "GPL-2.0+",
   "require": {
     "drupal/core": "9.0.*",
-    "cweagans/composer-patches": "^1.6.4",
-    "oomphinc/composer-installers-extender": "^1.1"
+    "cweagans/composer-patches": "^1.6.4"
   },
   "extra": {
-    "installer-types": [
-      "drupal-database-driver"
-    ],
     "installer-name": "mysql",
     "patches": {
       "drupal/core": {
