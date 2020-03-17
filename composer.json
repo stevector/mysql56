@@ -4,16 +4,9 @@
   "type": "drupal-database-driver",
   "license": "GPL-2.0+",
   "require": {
-    "drupal/core": "9.0.*",
-    "cweagans/composer-patches": "^1.6.4"
+    "drupal/core": "9.0.*"
   },
   "extra": {
-    "installer-name": "mysql",
-    "patches": {
-      "drupal/core": {
-        "3118832 - Allow custom database drivers to extend and have the same name as the core ones":
-        "https://www.drupal.org/files/issues/2020-03-12/db-prioritize-custom-driver-3118832-16.patch"
-      }
-    }
+    "installer-name": "mysql"
   }
 }
