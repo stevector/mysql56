@@ -6,7 +6,7 @@
     "The type is not drupal-module, because drivers in a module namespace wasn't supported until after this project was released, and changing the namespace now would break BC.",
     "The type is not drupal-database-driver, because drivers that override (have the same name as) a core one don't need to be in the drivers directory so long as they're in the autoloader."
   ],
-  "type": "drupal-database-driver-override",
+  "type": "library",
 
   "license": "GPL-2.0+",
   "require": {
